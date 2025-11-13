@@ -2,7 +2,7 @@
 //Написать метод, который фильтрует коллекцию чисел, возвращая только нечётные числа
 //public IEnumerable<int> GetOdd(ICollection<int> nums)
 
-namespace CheckForOdd;
+namespace OddNumbersOnlyApp;
 public class CheckForOdd
 {
     public IEnumerable<int> GetOdd(ICollection<int> nums)
