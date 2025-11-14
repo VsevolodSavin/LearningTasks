@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddNumbersOnlyApp", "OddNum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddNumbersOnlyTest", "OddNumbersOnlyTest\OddNumbersOnlyTest.csproj", "{33BE940E-BA77-4E1A-8856-F4029437FCAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveNumbersOnlyTest", "PositiveNumbersOnlyTest\PositiveNumbersOnlyTest.csproj", "{D76C0791-20BC-4F81-BA86-546C54EB1A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveNumbersOnlyApp", "PositiveNumbersOnlyApp\PositiveNumbersOnlyApp.csproj", "{97C4EE82-A477-4909-86B2-4FBD218A9FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{33BE940E-BA77-4E1A-8856-F4029437FCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33BE940E-BA77-4E1A-8856-F4029437FCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33BE940E-BA77-4E1A-8856-F4029437FCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76C0791-20BC-4F81-BA86-546C54EB1A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76C0791-20BC-4F81-BA86-546C54EB1A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76C0791-20BC-4F81-BA86-546C54EB1A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76C0791-20BC-4F81-BA86-546C54EB1A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C4EE82-A477-4909-86B2-4FBD218A9FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C4EE82-A477-4909-86B2-4FBD218A9FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C4EE82-A477-4909-86B2-4FBD218A9FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C4EE82-A477-4909-86B2-4FBD218A9FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
