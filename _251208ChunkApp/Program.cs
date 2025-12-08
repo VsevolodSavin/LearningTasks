@@ -53,8 +53,11 @@ public class UserBatchProcessor
         {
             try
             {
-                var test = _apiClient.SendUsersBatchAsync(chunk);
-                SuccessfulBatches++;
+                var sender = await _apiClient.SendUsersBatchAsync(chunk);
+                if (sender)
+                    SuccessfulBatches++;
+                else
+                    FailedBatches++;
             }
             catch
             {
